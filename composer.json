@@ -1,0 +1,28 @@
+{
+	"name": "phpbb/update-git-repo-bundle",
+	"description": "A symfony bundle that makes it easy to deploy git updates on your website",
+	"keywords": ["phpBB", "deploy", "git"],
+	"type": "symfony-bundle",
+	"homepage": "http://www.phpbb.com",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "phpBB Group",
+			"email": "operations@phpbb.com",
+			"homepage": "https://phpbb.com/"
+		}
+	],
+	"require": {
+		"symfony/symfony": "2.1.*"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": { "phpBB\\UpdateGitRepoBundle": "" }
+	},
+	"target-dir": "phpBB/UpdateGitRepoBundle",
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.0-dev"
+		}
+	}
+}
